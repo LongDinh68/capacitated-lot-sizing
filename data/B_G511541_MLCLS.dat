@@ -1,0 +1,51 @@
+Modelname
+g5141541
+NumberOfPeriods,Items,Resources
+4	10	3
+SetupCost,HoldingCost,LeadTime,InitialInventory,NameOfItem
+35	4	0	0	Item_1
+15	7	0	0	Item_2
+25	6	0	0	Item_3
+50	3	0	0	Item_4
+200	3	0	0	Item_5
+160	3	0	0	Item_6
+300	2	0	0	Item_7
+800	1	0	0	Item_8
+1440	1	0	0	Item_9
+1840	1	0	0	Item_10
+BOM(c_ij=NumberOfItems_i_NecessaryToProduceItem_j)
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+1	1	0	0	0	0	0	0	0	0	
+0	1	1	0	0	0	0	0	0	0	
+0	0	1	1	0	0	0	0	0	0	
+0	0	0	0	1	0	0	0	0	0	
+0	0	0	0	1	1	0	0	0	0	
+0	0	0	0	0	1	1	0	0	0	
+ExternalDemandForEachItemAndPeriod
+66	68	64	82	
+29	25	32	34	
+44	56	46	54	
+99	101	86	114	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+CapacityLimitsForEachResourceAndPeriod
+420	420	420	420	
+478.571	478.571	478.571	478.571	
+705.556	705.556	705.556	705.556	
+CapacityNeedsForProductionForEachResourceAndItem
+1	1	0	0	0	1	0	0	0	0	
+0	0	1	1	0	0	1	0	0	0	
+0	0	0	0	1	0	0	1	1	1	
+CapacityNeedsForSetupForEachResourceAndItem
+10	10	0	0	0	10	0	0	0	0	
+0	0	15	15	0	0	5	0	0	0	
+0	0	0	0	10	0	0	5	5	5	
+OverTimeCostsForEachResource
+10000	10000	10000	

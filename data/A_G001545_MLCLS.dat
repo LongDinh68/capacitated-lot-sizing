@@ -1,0 +1,51 @@
+Modelname
+G0041545
+NumberOfPeriods,Items,Resources
+4	10	3
+SetupCost,HoldingCost,LeadTime,InitialInventory,NameOfItem
+35	4	0	0	Item_1
+15	7	0	0	Item_2
+25	6	0	0	Item_3
+50	3	0	0	Item_4
+200	3	0	0	Item_5
+160	3	0	0	Item_6
+300	2	0	0	Item_7
+800	1	0	0	Item_8
+1440	1	0	0	Item_9
+1840	1	0	0	Item_10
+BOM(c_ij=NumberOfItems_i_NecessaryToProduceItem_j)
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+1	1	0	0	0	0	0	0	0	0	
+0	1	1	0	0	0	0	0	0	0	
+0	0	1	1	0	0	0	0	0	0	
+0	0	0	0	1	0	0	0	0	0	
+0	0	0	0	1	1	0	0	0	0	
+0	0	0	0	0	1	1	0	0	0	
+ExternalDemandForEachItemAndPeriod
+70	58	75	77	
+26	30	34	30	
+46	51	45	58	
+84	108	99	109	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+0	0	0	0	
+CapacityLimitsForEachResourceAndPeriod
+500	500	500	500	
+471.429	471.429	471.429	471.429	
+566.667	566.667	566.667	566.667	
+CapacityNeedsForProductionForEachResourceAndItem
+1	1	1	1	0	0	0	0	0	0	
+0	0	0	0	1	1	1	0	0	0	
+0	0	0	0	0	0	0	1	1	1	
+CapacityNeedsForSetupForEachResourceAndItem
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	0	
+OverTimeCostsForEachResource
+10000	10000	10000	
